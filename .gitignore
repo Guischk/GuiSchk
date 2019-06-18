@@ -77,3 +77,6 @@ typings/
 
 # Software folders
 .vscode/
+
+# Gatsby public
+public/
