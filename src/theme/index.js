@@ -1,13 +1,13 @@
 import colors from './colors';
+import standard from './standard';
 
 const theme = {
-  breakpoints: ['600px', '768px', '1024px'],
-  space: [0, 2, 4, 8, 16, 32, 64, 128, 256, 512],
   fonts: {
     sans: 'system-ui, helvetica',
-    mono: 'consola, mono',
+    mono: '"Fira Mono", mono',
   },
-  ...colors,
+  ...standard,
+  colors: colors,
 };
 
 export default theme;
