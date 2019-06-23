@@ -1,5 +1,5 @@
 const standard = {
-  breakpoints: ['640px', '900px', '1280px'],
+  breakpoints: ['640px', '900px', '1280px', '1920px'],
   space: [
     0, // 0
     2, // 1

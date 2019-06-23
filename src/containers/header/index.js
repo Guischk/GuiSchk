@@ -20,6 +20,7 @@ const Header = ({ titleStyle, pStyle }) => {
 
 Header.propTypes = {
   titleStyle: PropTypes.shape({}),
+  pStyle: PropTypes.shape({}),
 };
 
 Header.defaultProps = {

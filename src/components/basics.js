@@ -29,7 +29,7 @@ export const H1 = styled.h1`
 
 H1.defaultProps = {
   fontFamily: 'mono',
-  fontSize: ['6vw', '6vw', '5vw', '3.5vw'],
+  fontSize: ['6vw', '6vw', '5vw', '3vw'],
   fontWeight: 3,
   color: 'dark',
 };
@@ -43,7 +43,7 @@ export const Pa = styled.p`
 
 Pa.defaultProps = {
   fontFamily: 'sans',
-  fontSize: ['2vw'],
+  fontSize: ['5vw', '5vw', '4vw', '2vw'],
   color: 'dark',
 };
 

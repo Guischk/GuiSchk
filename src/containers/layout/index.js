@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import { ThemeProvider } from 'styled-components';
 import GlobalStyle from '../../theme/globalStyle';
 import NormalizeCss from '../../theme/normalizeCss';
 
-import { ThemeProvider } from 'styled-components';
 import theme from '../../theme';
 
 const Layout = ({ children }) => {

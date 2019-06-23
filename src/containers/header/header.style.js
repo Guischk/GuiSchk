@@ -13,6 +13,7 @@ export const HeaderWrapper = styled.div`
     position: fixed;
     left: 0;
     top: 0;
+    min-height: 100vw;
   }
 
   ${space}
@@ -24,8 +25,8 @@ export const HeaderWrapper = styled.div`
 HeaderWrapper.defaultProps = {
   width: [1, 1, 1, 1 / 3],
   py: [6, 6, 6, 7],
-  px: [5, 6, 7, 6],
+  pr: [5, 6, 7, 6],
+  pl: [5, 6, 7, 5],
   bg: 'dark',
   color: 'light',
-  minHeight: '100vh',
 };

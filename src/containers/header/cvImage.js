@@ -31,7 +31,7 @@ CvImage.propTypes = {
 
 CvImage.defaultProps = {
   divStyle: {
-    width: 1 / 2,
+    width: 2 / 5,
     ml: 'auto',
     mr: ['auto', 'auto', 'auto', 0],
   },
