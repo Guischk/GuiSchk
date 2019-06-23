@@ -20,6 +20,12 @@ Box.defaultProps = {
   width: 1,
 };
 
+export const Flex = styled(Box)`
+  display: flex;
+
+  ${flexbox}
+`;
+
 export const H1 = styled.h1`
   ${space}
   ${color}

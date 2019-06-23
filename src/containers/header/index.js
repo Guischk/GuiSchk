@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import { HeaderWrapper } from './header.style';
 
 import { H1, Pa, Box } from '../../components/basics';
+import Footer from '../footer';
 import CvImage from './cvImage';
 
 const Header = ({ titleStyle, pStyle }) => {
@@ -14,6 +15,7 @@ const Header = ({ titleStyle, pStyle }) => {
         <H1 {...titleStyle}>Guillaume Schonrock</H1>
         <Pa {...pStyle}>Analyst Developer</Pa>
       </Box>
+      <Footer header />
     </HeaderWrapper>
   );
 };
