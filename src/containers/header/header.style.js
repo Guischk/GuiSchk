@@ -2,10 +2,14 @@ import styled from 'styled-components';
 import { space, color, layout, flexbox } from 'styled-system';
 import themeGet from '@styled-system/theme-get';
 
+import { Box } from '../../components/basics';
+
 export const HeaderWrapper = styled.div`
   box-sizing: border-box;
   display: flex;
+  flex-direction: column;
   align-content: space-between;
+  justify-content: space-between;
 
   position: relative;
 
@@ -30,3 +34,7 @@ HeaderWrapper.defaultProps = {
   bg: 'dark',
   color: 'light',
 };
+
+export const IdWrapper = styled(Box)`
+  position: relative;
+`;

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { HeaderWrapper } from './header.style';
+import { HeaderWrapper, IdWrapper } from './header.style';
 
 import { H1, Pa, Box } from '../../components/basics';
 import Footer from '../footer';
@@ -10,11 +10,11 @@ import CvImage from './cvImage';
 const Header = ({ titleStyle, pStyle }) => {
   return (
     <HeaderWrapper>
-      <Box>
+      <IdWrapper>
         <CvImage />
         <H1 {...titleStyle}>Guillaume Schonrock</H1>
         <Pa {...pStyle}>Analyst Developer</Pa>
-      </Box>
+      </IdWrapper>
       <Footer header />
     </HeaderWrapper>
   );

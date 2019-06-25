@@ -6,12 +6,13 @@ import { Flex } from '../../components/basics';
 
 export const FooterWrapper = styled.div`
 
+  position: relative;
   flex-direction: column;
 
-  display: ${props => (props.footer ? 'flex' : 'hidden')};
+  display: ${props => (props.footer ? 'flex' : 'none')};
 
   @media only screen and (min-width: ${themeGet('breakpoints.2')}) {
-    display: ${props => (props.header ? 'flex' : 'hidden')}
+    display: ${props => (props.header ? 'flex' : 'none')}
   } 
 
   ${space}
@@ -30,3 +31,8 @@ export const SocialWrapper = styled(Flex)`
   align-items: center;
   justify-content: space-around;
 `;
+
+SocialWrapper.defaultProps = {
+  width: 1 / 2,
+  ml: 'auto',
+};
